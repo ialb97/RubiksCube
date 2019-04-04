@@ -1,0 +1,23 @@
+Html file can be found at V2/cube.html
+
+Read Me:
+G = Green
+Y = Yellow
+B = Blue
+O = Orange
+W = White
+R = Red
+r = right
+l = left
+
+Rotations directionality is based on the orientation of the cube if you were looking at that color.
+For example, if you are looking at the blue face, Br will rotate the blue face to the right/clockwise
+and Bl will rotate the blue face to the left/counterclockwise.
+
+The middle rotations work the same way where if you look at that color the middle pane from that
+perspective will rotate. For example if looking at the Yellow face and performing Y mid-pane right
+will result in the middle pane parallel to the yellow pane to rotate to the right.
+
+This code has only been tested in chrome or firefox so please use one of those browsers when testing.
+
+Happy Cubing!
