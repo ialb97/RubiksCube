@@ -10,7 +10,7 @@ function check_cube(){
           return false;
         }
         if(cube[i][j][k].index != dontcheck[0]){
-          if(!math.equal(cube[i][j][k].mat,cubecheck[i][j][k].mat)){
+          if(!math.deepEqual(math.round(cube[i][j][k].mat,4),math.round(cubecheck[i][j][k].mat,4))){
             return false;
           }
         }
